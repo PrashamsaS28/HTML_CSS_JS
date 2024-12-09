@@ -10,6 +10,8 @@
         width: 35%;
         gap:25px;
         padding: 10px;
+        justify-content: space-around;
+       
         
     }
     
@@ -17,24 +19,33 @@
     .card{
         
         background: rgba(255, 255,255,0.2);
-        backdrop-filter: blur(10px);
+        backdrop-filter: blur(15px);
+        border-left: 3px solid rgba(252, 252, 252, 0.201);
+        border-top: 3px solid rgba(252, 252, 252, 0.201);
         border-radius: 20px;
         padding: 20px;
         width: 384px;
+        transition: transform 0.3s ease,z-index 0.3s ease;
         box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        
         display: flex;
         flex-direction: column;
         gap: 15px;
         color: white;
         height: 340px;
+        
     }
     
     .component1{
         position: relative;
         height: 120px;
-        background-color: rgba(240, 81, 107, 0.852);
+        background-color: rgba(230, 116, 116, 0.7);
         border-radius: 25px;
         margin-top: 2px;
+        border-left: 6px solid rgba(255, 255, 255, 0.356);
+        border-top: 6px solid rgba(255, 255, 255, 0.356);
+        box-shadow: 0 4px 6px rgba(0,0,0,0.1),
+        0 6px 20px rgba(0,0,0,0.1);
     }
     
     
@@ -44,7 +55,11 @@
         height:60px;
         margin-top: 15px;
         border-radius: 50%;
-        background-color: rgba(255,255,255,0.5);
+        background-color: rgba(230, 116, 116, 0.7);
+        border-left: 6px solid rgba(255, 255, 255, 0.356);
+        border-top: 6px solid rgba(255, 255, 255, 0.356);
+        box-shadow: 0 4px 6px rgba(0,0,0,0.1),
+        0 6px 20px rgba(0,0,0,0.1);
     }
     
     .component3{
@@ -52,10 +67,14 @@
         display: inline-flex;
         height: 30px;
         width: 304px;
-        background-color: rgba(255,255,255,0.7);
+        background-color: rgba(230, 116, 116, 0.7);
         border-radius: 8px;
       margin-top: 150px;
       margin-left: 78px;
+      border-left: 6px solid rgba(255, 255, 255, 0.356);
+        border-top: 6px solid rgba(255, 255, 255, 0.356);
+        box-shadow: 0 4px 6px rgba(0,0,0,0.1),
+        0 6px 20px rgba(0,0,0,0.1);
     }
     
     
@@ -67,11 +86,12 @@
         display: inline-flex;
         height: 17px;
         width: 150px;
-        background-color: rgba(255,255,255,0.7);
+        background-color: rgba(230, 116, 116, 0.7);
         border-radius: 8px;
       margin-top: 191px;
       margin-left: 78px;
-      
-    }
-    
-    
+      border-left: 2px solid rgba(255, 255, 255, 0.356);
+        border-top: 6px solid rgba(255, 255, 255, 0.356);
+        box-shadow: 0 4px 6px rgba(0,0,0,0.1),
+        0 6px 20px rgba(0,0,0,0.1);
+    } 
